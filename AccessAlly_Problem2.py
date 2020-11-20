@@ -1,5 +1,5 @@
-#time complexity: n*m where n is the size of the blood/patient array (will be max 8 in this case) and m is the
-#max size of a value in the relationship array
+#time complexity: constant time gibven the input is always the same, otherwise it is n where n is the size of the input array
+
 
 def main(unitBloodArray, patientCountArray, bloodTypeRelation):
     total = 0
